@@ -1,0 +1,64 @@
+@font-face {
+    font-family: EasyProf;
+    src: url("Fonts/210 Sumusaleuibom L.ttf");
+    font-weight:400;
+}
+
+body {
+	margin: 0px 0px 0px 0px;
+	background-color: black;
+	background-image: url("Textures/Background 2.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 100vh;
+}
+
+canvas {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+center {
+	
+	position: fixed;
+	right: 0px;
+	left: 0px;
+	margin-left: auto;
+	maright-right: auto;
+	margin-top: 15.5vw;
+	user-select: none;
+	
+}
+
+span.Title1 {
+	font-size: 60px;
+	font-family: EasyProf;
+	color: #ffffff;
+}
+
+span.Title2 {
+	font-size: 56px;
+	font-family: EasyProf;
+	color: #ffffff;
+	opacity: 0.6;
+}
+
+img.homeRefLink {
+	border-style: none;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	opacity: 0.4;
+	
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-top: 14px;
+	
+	transition: opacity 0.5s;
+}
+
+img.homeRefLink:hover {
+	opacity: 1;
+}
