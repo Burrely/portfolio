@@ -32,6 +32,18 @@ center {
 	
 }
 
+center.loadingScreen {
+	
+	position: fixed;
+	right: 0px;
+	left: 0px;
+	margin-left: auto;
+	maright-right: auto;
+	margin-top: 20vw;
+	user-select: none;
+	
+}
+
 span.Title1 {
 	font-size: 60px;
 	font-family: EasyProf;
@@ -61,4 +73,11 @@ img.homeRefLink {
 
 img.homeRefLink:hover {
 	opacity: 1;
+}
+
+.pageLoadingscreen {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
 }
