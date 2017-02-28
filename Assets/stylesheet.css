@@ -125,6 +125,15 @@ button.youtubeMusicPanelButton {
 	color: white;
 	font-family: EasyProf;
 	
+	cursor: pointer;
+	transition: background-color 0.2s;
+	
+}
+
+button.youtubeMusicPanelButton:hover {
+	
+    background-color: rgba(35, 35, 35, 1);
+	
 }
 
 button.switchYoutubeMusicPanel {
