@@ -23,7 +23,7 @@ Particle.prototype.FloatUp = function(speedPerSecond) {
 
 Particle.prototype.Draw = function(canvas) {
 	
-	canvas.fillStyle = "#ffffff";
+	canvas.fillStyle = "#A3EE3F";
 	canvas.fillRect(this.position.x - this.size.x / 2, this.position.y - this.size.y / 2, this.size.x, this.size.y);
 	
 	//console.log("This pixel is at " + this.position.x + ", " + this.position.y);
