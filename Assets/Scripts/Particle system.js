@@ -1,6 +1,6 @@
 console.log("Setting up the canvas.");
 
-var c = document.getElementById("Canvas");
+var c = document.getElementById("ParticleCanvas");
 var canvas = c.getContext("2d");
 
 c.width = window.innerWidth;
