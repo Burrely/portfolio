@@ -18,14 +18,10 @@ window.addEventListener(
 
 console.log("Starting the particle system..");
 
-var particleDensity = 0.00005; // (x*100)% of the canvas will be covered in particles.
 var particleSpawnCount = particleDensity * (c.width * c.height);
 
 console.log("Generating " + particleSpawnCount + " particles");
 
-var smallParticlePercentage = 0.4;
-var mediumParticlePercentage = 0.4;
-var bigParticlePercentage = 0.2;
 console.log("Generating\n" + (smallParticlePercentage * particleSpawnCount) + " small particles. (" + (smallParticlePercentage * 100) + "%)\n" + (mediumParticlePercentage * particleSpawnCount) + " medium particles. (" + (mediumParticlePercentage * 100) + "%)\n" + (bigParticlePercentage * particleSpawnCount) + " big particles. (" + (bigParticlePercentage * 100) + "%)");
 
 var particleList = [];
