@@ -11,6 +11,11 @@ $(window).ready( function(){
 $(window).on("load", function(){
 	console.log("Page has loaded");
 	
+<<<<<<< HEAD
 >>>>>>> parent of f59e795... Added button images
 	$(".pageLoadingscreen").fadeOut("slow", 0);
 });
+=======
+});
+
+>>>>>>> parent of 46db1f1... Music player update
