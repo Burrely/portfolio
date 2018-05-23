@@ -31,10 +31,13 @@ center {
 	user-select: none;
 }
 
+<<<<<<< HEAD
 button:focus {
 	outline:0;
 }
 
+=======
+>>>>>>> parent of 4bd0760... .
 center.loadingScreen {
 	position: fixed;
 	right: 0px;
