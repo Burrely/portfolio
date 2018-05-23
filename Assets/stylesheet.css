@@ -36,6 +36,15 @@ center {
 	
 }
 
+<<<<<<< HEAD
+=======
+button:focus {
+	
+	outline:0;
+
+}
+
+>>>>>>> parent of 8073b73... Content menu v0.1
 center.loadingScreen {
 	
 	position: fixed;
