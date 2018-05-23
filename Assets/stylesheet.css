@@ -80,4 +80,41 @@ img.homeRefLink:hover {
 	width: 100vw;
 	height: 100vh;
 	background-color: black;
+<<<<<<< HEAD
+=======
+	z-index: 100;
+}
+
+div.youtubeMusicPanel {
+	
+	position: fixed;
+	left: -240px;
+	bottom: 5vh;
+	width: 280px;
+	height: 160px;
+	z-index: 11;
+	border-radius: 0px 10px 10px 0px;
+	background-color: rgba(255, 255, 255, 0.2);
+	opacity: 1;
+	transition: left 1s;
+	
+}
+
+div.youtubeMusicPanel:hover {
+	
+	left: 0px;
+	
+}
+
+iframe.youtubeMusicPlayer {
+	
+	position: relative;
+	width: 240px;
+	height: 136px;
+	float: bottom;
+	top: 2px;
+	z-index: 9;
+	border-radius: 0px 10px 10px 0px;
+	opacity: 1;
+>>>>>>> parent of 2acaea5... Big music player overhaul!
 }
