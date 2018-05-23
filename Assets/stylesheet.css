@@ -1,7 +1,63 @@
+<<<<<<< HEAD
 h1,h2,h3,h4,h5,h6,span,section {
     text-align: center;
     margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+=======
+@font-face {
+    font-family: EasyProf;
+    src: url("Fonts/210 Sumusaleuibom L.ttf");
+    font-weight:400;
+}
+
+body {
+	margin: 0px 0px 0px 0px;
+	background-color: black;
+	background-image: url("Textures/Forest night 1024 samples.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 100vh;
+	cursor: default;
+}
+
+canvas {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+}
+
+center {
+	
+	position: fixed;
+	right: 0px;
+	left: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15.5vw;
+	z-index: 11;
+	user-select: none;
+	
+}
+
+button:focus {
+	
+	outline:0;
+
+}
+
+center.loadingScreen {
+	
+	position: fixed;
+	right: 0px;
+	left: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20vw;
+	user-select: none;
+	
+>>>>>>> parent of 8073b73... Content menu v0.1
 }
 
 h2.navigationText {
