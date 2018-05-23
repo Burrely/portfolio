@@ -7,11 +7,8 @@
 body {
 	margin: 0px 0px 0px 0px;
 	background-color: black;
-<<<<<<< HEAD
 	background-image: url("Textures/Background 2.png");
-=======
 	background-image: url("Textures/Background 2.jpg");
->>>>>>> parent of 005ca3d... Visuals update
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -25,33 +22,25 @@ canvas {
 }
 
 center {
-	
 	position: fixed;
 	right: 0px;
 	left: 0px;
 	margin-left: auto;
-	maright-right: auto;
+	margin-right: auto;
 	margin-top: 15.5vw;
 	user-select: none;
-	
 }
 
-<<<<<<< HEAD
-=======
 button:focus {
-	
 	outline:0;
-
 }
 
->>>>>>> parent of 8073b73... Content menu v0.1
 center.loadingScreen {
-	
 	position: fixed;
 	right: 0px;
 	left: 0px;
 	margin-left: auto;
-	maright-right: auto;
+	margin-right: auto;
 	margin-top: 20vw;
 	user-select: none;
 	
@@ -93,8 +82,6 @@ img.homeRefLink:hover {
 	width: 100vw;
 	height: 100vh;
 	background-color: black;
-<<<<<<< HEAD
-=======
 	z-index: 100;
 }
 
@@ -110,12 +97,9 @@ div.youtubeMusicPanel {
 	background-color: rgba(255, 255, 255, 0.2);
 	opacity: 1;
 	transition: left 1s;
-<<<<<<< HEAD
-=======
 	border: 1px solid white;
 	border-left: 2px;
 	box-shadow: 0px 0px 20px 8px black;
-	
 }
 
 .youtubeMusicPanelActive {
@@ -164,8 +148,7 @@ button.previousYoutubeMusicTrack {
     left: 40px;
     bottom: 0px;
 	background-color: rgba(35, 35, 35, 0.25);
->>>>>>> parent of 2b6a5c1... Music player updates/fixes
-	
+
 }
 
 div.youtubeMusicPanel:hover {
@@ -184,5 +167,5 @@ iframe.youtubeMusicPlayer {
 	z-index: 9;
 	border-radius: 0px 10px 10px 0px;
 	opacity: 1;
->>>>>>> parent of 2acaea5... Big music player overhaul!
+	
 }
