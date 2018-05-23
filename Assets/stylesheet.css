@@ -97,6 +97,61 @@ div.youtubeMusicPanel {
 	background-color: rgba(255, 255, 255, 0.2);
 	opacity: 1;
 	transition: left 1s;
+<<<<<<< HEAD
+=======
+	border: 1px solid white;
+	border-left: 2px;
+	box-shadow: 0px 0px 20px 8px black;
+	
+}
+
+.youtubeMusicPanelActive {
+	
+	left: -40px;
+	
+}
+
+button.youtubeMusicPanelButton {
+	
+    box-shadow: inset 0 0 10px 0px #000000;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px;
+	color: white;
+	font-family: EasyProf;
+	
+}
+
+button.switchYoutubeMusicPanel {
+	
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 0px 0px 10px 0px;
+	
+}
+
+button.nextYoutubeMusicTrack {
+	
+	position: absolute;
+    width: 80px;
+    height: 24px;
+    left: 200px;
+    bottom: 0px;
+	background-color: rgba(35, 35, 35, 0.25);
+	
+}
+
+button.previousYoutubeMusicTrack {
+	
+	position: absolute;
+    width: 80px;
+    height: 24px;
+    left: 40px;
+    bottom: 0px;
+	background-color: rgba(35, 35, 35, 0.25);
+>>>>>>> parent of 2b6a5c1... Music player updates/fixes
 	
 }
 
