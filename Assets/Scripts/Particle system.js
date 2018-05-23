@@ -18,9 +18,14 @@ window.addEventListener(
 
 console.log("Starting the particle system..");
 
+<<<<<<< HEAD
 var particleSpawnCount = particleDensity * (c.width * c.height);
 
 console.log("Generating " + particleSpawnCount + " particles");
+=======
+var particleSpawnCount = 100;
+console.log("Generating 50 particles");
+>>>>>>> parent of 005ca3d... Visuals update
 
 console.log("Generating\n" + (smallParticlePercentage * particleSpawnCount) + " small particles. (" + (smallParticlePercentage * 100) + "%)\n" + (mediumParticlePercentage * particleSpawnCount) + " medium particles. (" + (mediumParticlePercentage * 100) + "%)\n" + (bigParticlePercentage * particleSpawnCount) + " big particles. (" + (bigParticlePercentage * 100) + "%)");
 

@@ -13,7 +13,7 @@ h1,h2,h3,h4,h5,h6,span,section {
 body {
 	margin: 0px 0px 0px 0px;
 	background-color: black;
-	background-image: url("Textures/Forest night 1024 samples.png");
+	background-image: url("Textures/Background 2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -96,8 +96,27 @@ div.ghostButton:hover {
     top: 0vh;
 }
 
+<<<<<<< HEAD
 #productSelectionSection {
     top: 100vh;
+=======
+.youtubeMusicPanel {
+	
+	position: fixed;
+	left: -280px;
+	bottom: 5vh;
+	width: 320px;
+	height: 160px;
+	z-index: 11;
+	border-radius: 0px 10px 10px 0px;
+	background-color: rgba(255, 255, 255, 0.2);
+	opacity: 1;
+	transition: left 1s;
+	border: 1px solid white;
+	border-left: 2px;
+	box-shadow: 0px 0px 20px 8px black;
+	
+>>>>>>> parent of 005ca3d... Visuals update
 }
 
 #productImageSection {
