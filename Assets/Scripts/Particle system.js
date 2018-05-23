@@ -1,6 +1,18 @@
 console.log("Setting up the canvas.");
 
-var c = document.getElementById("ParticleCanvas");
+//Fields >
+//Fill these in to setup your particle system.
+var particleProjectionCanvasId = "ParticleCanvas";
+
+var particleDensity = 0.00005; // (x*100)% of the canvas will be covered in particles.
+
+var smallParticlePercentage = 0.4;
+var mediumParticlePercentage = 0.4;
+var bigParticlePercentage = 0.2;
+
+//
+
+var c = document.getElementById(particleProjectionCanvasId);
 var canvas = c.getContext("2d");
 
 c.width = window.innerWidth;
