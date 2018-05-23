@@ -7,7 +7,11 @@
 body {
 	margin: 0px 0px 0px 0px;
 	background-color: black;
+<<<<<<< HEAD
 	background-image: url("Textures/Background 2.png");
+=======
+	background-image: url("Textures/Background 2.jpg");
+>>>>>>> parent of 005ca3d... Visuals update
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
