@@ -40,6 +40,8 @@ Particle.prototype.CorrectPosition = function(canvasSize) {
 	
 }
 
+
+
 var Vector2 = function(x, y) {
 	this.x = x;
 	this.y = y;

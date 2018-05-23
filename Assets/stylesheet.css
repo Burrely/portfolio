@@ -7,17 +7,19 @@
 body {
 	margin: 0px 0px 0px 0px;
 	background-color: black;
-	background-image: url("Textures/Background 2.png");
+	background-image: url("Textures/Background 2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 	height: 100vh;
+	cursor: default;
 }
 
 canvas {
 	position: absolute;
 	top: 0px;
 	left: 0px;
+	z-index: 10;
 }
 
 center {
@@ -28,6 +30,7 @@ center {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 15.5vw;
+	z-index: 11;
 	user-select: none;
 	
 }
@@ -69,6 +72,7 @@ img.homeRefLink {
 	margin-top: 14px;
 	
 	transition: opacity 0.5s;
+	cursor: pointer;
 }
 
 img.homeRefLink:hover {
@@ -80,4 +84,38 @@ img.homeRefLink:hover {
 	width: 100vw;
 	height: 100vh;
 	background-color: black;
+	z-index: 100;
+}
+
+div.youtubeMusicPanel {
+	
+	position: fixed;
+	left: -240px;
+	bottom: 5vh;
+	width: 280px;
+	height: 160px;
+	z-index: 11;
+	border-radius: 0px 10px 10px 0px;
+	background-color: rgba(255, 255, 255, 0.2);
+	opacity: 1;
+	transition: left 1s;
+	
+}
+
+div.youtubeMusicPanel:hover {
+	
+	left: 0px;
+	
+}
+
+iframe.youtubeMusicPlayer {
+	
+	position: relative;
+	width: 240px;
+	height: 136px;
+	float: bottom;
+	top: 2px;
+	z-index: 9;
+	border-radius: 0px 10px 10px 0px;
+	opacity: 1;
 }
