@@ -42,6 +42,12 @@ div.banner_wrapper {
     background-image: url("http://dutchfurcon.com/img/bg.png");
     background-color: rgba(0,0,0,.8);
     background-blend-mode: multiply;
+    
+    position: fixed;
+    z-index: -1;
+    background-position: bottom center;
+    height: 100%;
+    width: 100%;
 }
 
 main {
