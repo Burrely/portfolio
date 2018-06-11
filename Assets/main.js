@@ -10,7 +10,7 @@ function UpdateTimer() {
     
     //
     var rDayInit = Math.floor(remTimeMilliseconds / 1000 / 60 / 60 / 24);
-    var rHourinit = Math.floor(remTimeMilliseconds / 1000 / 60 / 60) % 24;
+    var rHourinit = Math.floor(remTimeMilliseconds / 1000 / 60 / 60);
     var rMinuteinit = Math.floor(remTimeMilliseconds / 1000 / 60) % 60;
     var rSecondinit = Math.floor(remTimeMilliseconds / 1000) % 60;
 
