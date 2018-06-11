@@ -86,5 +86,6 @@ div.timer_page li:last-child {
 }
 
 div.timer_page ul {
+    padding-left: 0px;
     margin-bottom: 0px;
 }
