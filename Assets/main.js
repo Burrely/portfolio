@@ -2,7 +2,7 @@
 var dayTimerContainer = document.getElementById("DayCounter");
 var timerContainer = document.getElementById("TimeCounter");
 var timer;
-var endTime = new Date(2018, 5, 29, 17, 0, 0, 0);
+var endTime = new Date(2018, 5, 29, 19, 0, 0, 0);
 
 function UpdateTimer() {
     var timeNow = Date.now();
