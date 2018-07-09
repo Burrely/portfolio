@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 3128648548
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b8e0605bd36ff4c8852ab72b13388596
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 682d18ec161ce2d3806a6407573c7615
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/a_iphone_7_silver.prefab
+Dependencies: []
