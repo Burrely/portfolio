@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #CCCCCC;
+}
+
+html, body {
+    margin: 0;
+    background-color: #252526;
+}
+
+header {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #1E1E1E;
+}
+
+header > *:first-child {
+    margin-top: 0;
+}
+
+header > *:last-child {
+    margin-bottom: 0;
+}
+
+div.leagueOfLegendsLogo {
+    width: 320px;
+    height: 120px;
+    margin: 0 auto;
+    background-image: url("https://vignette.wikia.nocookie.net/one-minute-meelee-fanon/images/8/86/League_of_legends_logo_transparent.png/revision/latest/scale-to-width-down/640?cb=20180518213036");
+    background-size: 320px 120px;
+}
+
+.specialText {
+    color: #007ACC;
+}
+
+div#GenerateButton {
+    margin: 0 auto;
+    height: 60px;
+    max-width: 360px;
+    color: #CCCCCC;
+    background-color: #333333;
+    border: 1px solid #252526;
+    border-radius: 4px;
+    transition: 0.4s;
+    cursor: pointer;
+    user-select: none;
+}
+
+div#GenerateButton:hover {
+    background-color: #383838;
+}
+
+div#GenerateButton:active {
+    background-color: #ADADAD;
+    color: white !important;
+}
+
+#GenerateButton > h2 {
+    margin-top: 16px;
+}
+
+/**/
+
+div.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+div.wrapper > * {
+    display: flex;
+}
+
+div.wrapper > .championTile {
+    order: -1000;
+    width: 80px;
+    height: 80px;
+    margin: 20px auto;
+    border: solid #1E1E1E 3px;
+    border-radius: 3px;
+}
+
+div.wrapper > div {
+    width: 600px;
+    padding: 20px;
+    margin: 0 auto 20px auto;
+    background-color: #1E1E1E;
+}
+
+div.wrapper > div > * {
+    margin: auto 20px auto 0;
+}

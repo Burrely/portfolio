@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="stylesheet" type="text/css" href="Assets/stylesheet.css"/>
+        
+        <script defer src="Assets/Scripts/HelperMethods.js"></script>
+        <script defer src="Assets/Scripts/ChampionLevelData.js"></script>
+        <script defer src="Assets/Scripts/AbilityCard.js"></script>
+        <script defer src="Assets/Scripts/Generator.js"></script>
+
+    </head>
+    <body>
+        <header>
+            <div class="leagueOfLegendsLogo"></div>
+            <h2>Skill challenge</h2>
+            <div id="GenerateButton" onclick="GenerateChallenge(document.getElementById('output'))"><h2>Generate leveling path!</h1></div>
+            <p><small>Current setup for champion <span class="specialText champion_lux">Lux</span> up to level <span class="specialText">18</span></small></p>
+        </header>
+        <div id="output" class="wrapper">
+
+        </div>
+        <div class="wrapper">
+
+        </div>
+    </body>
+</html>
