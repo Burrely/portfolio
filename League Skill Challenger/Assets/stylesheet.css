@@ -62,7 +62,21 @@ div#GenerateButton:active {
 }
 
 /**/
+div#ChampionSelectDropdown {
+    width: 360px;
+    max-height: 200px;
+    overflow-x: hidden;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #333333;
+    border: 1px solid #252526;
+}
 
+div#ChampionSelectDropdown .championOption:hover {
+    background-color: #252526;
+}
+
+/**/
 div.wrapper {
     display: flex;
     flex-direction: column;

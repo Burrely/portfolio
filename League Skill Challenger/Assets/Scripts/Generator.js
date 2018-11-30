@@ -8,7 +8,7 @@
 
 var outputElement = document.getElementById("output");
 
-var chosenChampionId = "Lux";
+var chosenChampionId = "Aatrox";
 
 var championData;
 var championLevelData = new ChampionLevelData();
@@ -28,6 +28,14 @@ championDataRequest.onreadystatechange = function() {
           champions.push(x);
         }
         outputElement.innerHTML = "<img class='championTile' src='http://ddragonexplorer.com/cdn/img/champion/tiles/" + championData.data[chosenChampionId].id + "_0.jpg'/>";
+        champions.forEach(function(championId, index) {
+          var championOptionDiv = document.createElement('div');
+          championOptionDiv.classList.add("championOption");
+          championOptionDiv.setAttribute("name", championId);
+          championOptionDiv.setAttribute("onclick", 'chosenChampionId = "'+championId+'"; GenerateChallenge(document.getElementById("output"));');
+          document.getElementById("ChampionSelectDropdown").appendChild(championOptionDiv);
+          championOptionDiv.innerHTML = championId;
+        });
         generateButtonAvailable = true;
         // championData.data[champions[0]] - Used this for loading in champions by key.
     }
@@ -41,10 +49,16 @@ championDataRequest.send();
 function GenerateChallenge(parentElement) {
 
   if (!generateButtonAvailable) { return; }
+  
+  outputElement.innerHTML = "<img class='championTile' src='http://ddragonexplorer.com/cdn/img/champion/tiles/" + championData.data[chosenChampionId].id + "_0.jpg'/>";
 
   ClearAbilityCards(parentElement);
   ResetChallenge();
-
+  // Set champion tiles
+  for(var i=0; i < document.getElementsByClassName("championTile").length; i++) {
+    document.getElementsByClassName("championTile").src = 'http://ddragonexplorer.com/cdn/img/champion/tiles/' + championData.data[chosenChampionId].id + '_0.jpg';
+  }
+  // Set ability cards
   for(var i=0; i < abilityCards.length; i++) {
     
     var abilityNumber = null;
