@@ -76,6 +76,9 @@ div#ChampionSelectDropdown .championOption:hover {
     background-color: #252526;
 }
 
+div#ChampionSelectDropdown .championOption.active {
+    background-color: #252526;
+}
 /**/
 div.wrapper {
     display: flex;

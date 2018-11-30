@@ -32,7 +32,14 @@ championDataRequest.onreadystatechange = function() {
           var championOptionDiv = document.createElement('div');
           championOptionDiv.classList.add("championOption");
           championOptionDiv.setAttribute("name", championId);
-          championOptionDiv.setAttribute("onclick", 'chosenChampionId = "'+championId+'"; GenerateChallenge(document.getElementById("output"));');
+          championOptionDiv.setAttribute(
+            "onclick",
+            'chosenChampionId = "' +championId+ '";' +
+            'for(var i = 0; i < this.parentElement.children.length; i++) {' +
+            '  this.parentElement.children[i].classList.remove("active");' +
+            '}' +
+            'this.classList.add("active");'
+          );
           document.getElementById("ChampionSelectDropdown").appendChild(championOptionDiv);
           championOptionDiv.innerHTML = championId;
         });
