@@ -113,13 +113,13 @@ ChampionLevelData.prototype.CanLevel = function(abilityKey) {
 
     switch(abilityKey) {
         case "q":
-            returnValue = (!((this.qLevel/this.totalLevel) >= 0.5) && !(this.qLevel >= this.qMaxLevel)) ? true : false;
+            returnValue = (this.qLevel/this.totalLevel) <= 0.5 && this.qLevel < this.qMaxLevel ? true : false;
         break;
         case "w":
-            returnValue = (!((this.wLevel/this.totalLevel) >= 0.5) && !(this.wLevel >= this.wMaxLevel)) ? true : false;
+            returnValue = (this.wLevel/this.totalLevel) <= 0.5 && this.wLevel < this.wMaxLevel ? true : false;
         break;
         case "e":
-            returnValue = (!((this.eLevel/this.totalLevel) >= 0.5) && !(this.eLevel >= this.eMaxLevel)) ? true : false;
+            returnValue = (this.eLevel/this.totalLevel) <= 0.5 && this.eLevel < this.eMaxLevel ? true : false;
         break;
         case "r":
             if ( (this.totalLevel/(1+(this.rLevel+1)*5)) >= 1 && this.rLevel < this.rMaxLevel) {

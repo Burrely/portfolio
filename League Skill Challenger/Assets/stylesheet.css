@@ -70,14 +70,24 @@ div#ChampionSelectDropdown {
     margin-top: 20px;
     background-color: #333333;
     border: 1px solid #252526;
+    user-select: none;
+}
+
+div#ChampionSelectDropdown .championOption {
+    transition: 1s;
+    transition-property: all;
+    z-index: 0;
 }
 
 div#ChampionSelectDropdown .championOption:hover {
     background-color: #252526;
+    transition-property: padding;
 }
 
 div#ChampionSelectDropdown .championOption.active {
+    padding: 10px 0;
     background-color: #252526;
+    transition-property: padding;
 }
 /**/
 div.wrapper {
@@ -90,6 +100,11 @@ div.wrapper > * {
     display: flex;
 }
 
+div.wrapper > div > *:last-child {
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
 div.wrapper > .championTile {
     order: -1000;
     width: 80px;
@@ -100,6 +115,8 @@ div.wrapper > .championTile {
 }
 
 div.wrapper > div {
+    display: flex;
+    flex-direction: row;
     width: 600px;
     padding: 20px;
     margin: 0 auto 20px auto;
@@ -107,5 +124,6 @@ div.wrapper > div {
 }
 
 div.wrapper > div > * {
+    display: inline-flex;
     margin: auto 20px auto 0;
 }

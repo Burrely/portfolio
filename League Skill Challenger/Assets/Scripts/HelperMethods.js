@@ -13,3 +13,21 @@ function GetObjectKey(index) {
     
     return outputKey;
 }
+
+function SwitchElementClass(element, className) {
+
+    var isClassInElement = false;
+
+    for(var i=0; i < element.classList.length; i++) {
+        if (element.classList[i] == className) {
+            isClassInElement = true;
+            break;
+        }
+    }
+
+    if (isClassInElement) {
+        element.classList.remove(className);
+    } else {
+        element.classList.add(className);
+    }
+}
